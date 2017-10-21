@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="spring-boot-demo" transaction-type="RESOURCE_LOCAL">
+		<class>com.concretepage.entity.Customer</class>
+		<class>com.concretepage.entity.Employee</class>
+		<class>com.concretepage.entity.Office</class>
+		<class>com.concretepage.entity.Orderdetail</class>
+		<class>com.concretepage.entity.OrderdetailPK</class>
+		<class>com.concretepage.entity.Order</class>
+		<class>com.concretepage.entity.Payment</class>
+		<class>com.concretepage.entity.PaymentPK</class>
+		<class>com.concretepage.entity.Productline</class>
+		<class>com.concretepage.entity.Product</class>
+		<class>com.concretepage.entity.Article</class>
+		<class>com.concretepage.entity.User</class>
+		<shared-cache-mode>UNSPECIFIED</shared-cache-mode>
+		<validation-mode>NONE</validation-mode>
+		<properties>
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://173.194.105.40:3306/products"/>
+			<property name="javax.persistence.jdbc.user" value="onquik"/>
+			<property name="javax.persistence.jdbc.password" value="welcome@ta123"/>
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+		</properties>
+	</persistence-unit>
+</persistence>

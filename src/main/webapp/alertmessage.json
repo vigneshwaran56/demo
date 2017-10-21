@@ -1,0 +1,64 @@
+[
+    {
+        "Description": "User not exist",
+        "PromptCode": "altmsg-NE",
+        "Status": "Failure",
+        "Title": "Fauiure!",
+        "Message": "You don't have any account, do signup!.",
+        "KeySet": "",
+        "ActionSet": ""
+    },
+    {
+        "Description": "User rong credentials",
+        "PromptCode": "altmsg-WC",
+        "Status": "Failure",
+        "Title": "Fauiure!",
+        "Message": "You have entered wrong password.",
+        "KeySet": "",
+        "ActionSet": ""
+    },
+    {
+        "Description": "User Logged in",
+        "PromptCode": "altmsg-LI",
+        "Status": "Success",
+        "Title": "Sucess!",
+        "Message": "You have succesfully logged in.",
+        "KeySet": "",
+        "ActionSet": ""
+    },
+    {
+        "Description": "User Null Object",
+        "PromptCode": "altmsg-NO",
+        "Status": "Failure",
+        "Title": "Failure!",
+        "Message": "You given null object.",
+        "KeySet": "",
+        "ActionSet": ""
+    }, {
+        "Description": "User signedup",
+        "PromptCode": "altmsg-SP",
+        "Status": "Success",
+        "Title": "Sucesss!",
+        "Message": "You have successfully signed in.",
+        "KeySet": "",
+        "ActionSet": ""
+    }, {
+        "Description": "User signedup",
+        "PromptCode": "altmsg-AE",
+        "Status": "Failure",
+        "Title": "Failure!",
+        "Message": "You have already Signed up.",
+        "KeySet": "",
+        "ActionSet": ""
+    },{
+        "Description": "User signedup",
+        "PromptCode": "altmsg-SO",
+        "Status": "Success",
+        "Title": "Sucess!",
+        "Message": "You have signed out.",
+        "KeySet": "",
+        "ActionSet": ""
+    }
+    
+     
+]
